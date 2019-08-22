@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/logo.png";
 import "./logo.scss";
 
 const Logo = () => {
@@ -101,7 +102,7 @@ const Logo = () => {
           />
         </g>
       </svg>
-      <h2>SNEAKERHEADZ</h2>
+      <img src={logo} className="logo" />
     </div>
   );
 };
