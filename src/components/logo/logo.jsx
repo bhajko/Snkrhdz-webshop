@@ -102,7 +102,7 @@ const Logo = () => {
           />
         </g>
       </svg>
-      <img src={logo} className="logo" />
+      <img src={logo} className="logo" alt="logo" />
     </div>
   );
 };
