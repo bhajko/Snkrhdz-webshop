@@ -6,7 +6,6 @@ const StripeButton = ({ price }) => {
   const pulishableKey = "pk_test_mz3TxAbHYpNJf842vLmiHB6q00KRqJzVyA";
 
   const onToken = token => {
-    console.log(token);
     alert("Payment successful");
   };
 
