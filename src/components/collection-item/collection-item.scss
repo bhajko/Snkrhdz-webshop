@@ -5,6 +5,11 @@
   height: 350px;
   align-items: center;
   position: relative;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 
   .image {
     width: 100%;
@@ -46,7 +51,7 @@
     }
 
     .price {
-      width: 15%;
+      width: 17%;
     }
   }
 }
