@@ -7,20 +7,37 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 0 100px;
+
+  @media screen and (max-width: 860px) {
+    height: 150px;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+  }
 `;
 
 export const LogoContainer = styled(Link)`
-  height: 100%;
-  width: 50%;
+  /* height: 100%;
+  width: 100%; */
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 860px) {
+    justify-content: center;
+  }
 `;
 
 export const OptionsContainer = styled.div`
-  height: 100%;
-  width: 50%;
+  /* height: 100%;
+  width: 100%; */
   display: flex;
   align-items: center;
   justify-content: flex-end;
   font-size: 17px;
+
+  @media screen and (max-width: 860px) {
+    justify-content: center;
+    padding: 10px 0;
+  }
 `;
 
 export const OptionLink = styled(Link)`
