@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "./carousel.scss";
 
 export default () => (
-  <Carousel showThumbs={false} showStatus={false}>
+  <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
     <div className="slide-text">
       <img src="https://i.ibb.co/Rb1YSw7/snkrhdz-nike.png" alt="snkrhdz-nike" />
       <div className="text">

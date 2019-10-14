@@ -4,4 +4,11 @@
   flex-wrap: wrap-reverse;
   justify-content: space-between;
   padding: 0 100px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 50px;
+  }
+  @media screen and (max-width: 860px) {
+    padding: 0 20px;
+  }
 }
