@@ -3,14 +3,14 @@ import { Carousel } from "react-responsive-carousel";
 import "./carousel.scss";
 
 export default () => (
-  <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
+  <Carousel showThumbs={false} showStatus={false}>
     <div className="slide-text">
       <img src="https://i.ibb.co/Rb1YSw7/snkrhdz-nike.png" alt="snkrhdz-nike" />
       <div className="text">
         <h1>AIR MAX 270 SE</h1>
         <p>
-          Boasting the largest-ever Wmns Max <br />
-          air heel unitcreated by Nike
+          Boasting the largest-ever Wmns <br />
+          air heel unit created by Nike
         </p>
       </div>
     </div>
