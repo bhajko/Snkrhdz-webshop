@@ -1,14 +1,18 @@
 .collection-item {
-  width: 22vw;
+  width: 300px;
   display: flex;
   flex-direction: column;
   height: 350px;
   align-items: center;
   position: relative;
-  margin-right: 10px;
+  // margin-right: 10px;
 
-  &:last-child {
-    margin-right: 0;
+  // &:last-child {
+  //   margin-right: 0;
+  // }
+
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 30px;
   }
 
   .image {
@@ -44,14 +48,5 @@
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-
-    .name {
-      width: 90%;
-      margin-bottom: 15px;
-    }
-
-    .price {
-      width: 17%;
-    }
   }
 }
