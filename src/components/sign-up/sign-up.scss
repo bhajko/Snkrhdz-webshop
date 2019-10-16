@@ -6,4 +6,27 @@
   .title {
     margin: 10px 0;
   }
+
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .sign-up-form {
+      width: 80vw;
+    }
+
+    .sign-up-btn {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .title {
+      font-size: 22px;
+    }
+    span {
+      font-size: 15px;
+    }
+  }
 }
