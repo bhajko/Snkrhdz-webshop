@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> A company website for a fictional rental agency.
+> A webshop for sneakers and other cool stuff.
 
 ### 🏠 [Homepage](https://snkrhdz.bhajko.dev/)
 
