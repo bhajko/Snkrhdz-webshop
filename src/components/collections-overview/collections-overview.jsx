@@ -10,9 +10,11 @@ import "./collections-overview.scss";
 const CollectionsOverview = ({ collections }) => {
   return (
     <div className="collections-overview">
-      {collections.map(({ id, ...otherCollectionProps }) => (
-        <CollectionPreview key={id} {...otherCollectionProps} />
-      ))}
+      {collections
+        .map(({ id, ...otherCollectionProps }) => (
+          <CollectionPreview key={id} {...otherCollectionProps} />
+        ))
+        .reverse()}
     </div>
   );
 };
