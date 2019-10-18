@@ -6,8 +6,8 @@ const SHOP_DATA = {
     items: [
       {
         id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        name: "Red Nike",
+        imageUrl: "https://i.ibb.co/YZNjmxc/red-nike.png",
         price: 25
       },
       {
@@ -208,39 +208,63 @@ const SHOP_DATA = {
     items: [
       {
         id: 30,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-        price: 325
+        name: "Nike Janoski Camo",
+        imageUrl: "https://i.ibb.co/86Y7sJD/janoski-camo.png",
+        price: 150
       },
       {
         id: 31,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-        price: 20
+        name: "Nike Air Presto Black",
+        imageUrl: "https://i.ibb.co/9pZCQyC/air-presto-black.png",
+        price: 220
       },
       {
         id: 32,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
-        price: 25
+        name: "Asics Gel Lyte Camo",
+        imageUrl: "https://i.ibb.co/L124w6b/gel-lyte-camo.png",
+        price: 125
       },
       {
         id: 33,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-        price: 25
+        name: "Air Max 97 Gold",
+        imageUrl: "https://i.ibb.co/pvPNcHf/air-max-97-gold.png",
+        price: 350
       },
       {
         id: 34,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        price: 40
+        name: "Nike Janoski Pink",
+        imageUrl: "https://i.ibb.co/vZppD3x/janoski-pink.png",
+        price: 150
       },
       {
         id: 35,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-        price: 25
+        name: "Adidas Superstar Black",
+        imageUrl: "https://i.ibb.co/5vvrrBR/superstar-black.png",
+        price: 135
+      },
+      {
+        id: 35,
+        name: "Nike Janoski Bourdon",
+        imageUrl: "https://i.ibb.co/qB064wg/janoski-bourdon.png",
+        price: 125
+      },
+      {
+        id: 35,
+        name: "Nike Air Force Yellow",
+        imageUrl: "https://i.ibb.co/mFcjwwW/air-force-yellow.png",
+        price: 190
+      },
+      {
+        id: 35,
+        name: "Adidas NMD Black",
+        imageUrl: "https://i.ibb.co/PcqvC37/nmd-black.png",
+        price: 185
+      },
+      {
+        id: 35,
+        name: "Air Max 90 Rainbow",
+        imageUrl: "https://i.ibb.co/jwwt0BC/air-max-90-rainbow.png",
+        price: 250
       }
     ]
   }
