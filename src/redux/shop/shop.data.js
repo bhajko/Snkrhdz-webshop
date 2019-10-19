@@ -67,51 +67,63 @@ const SHOP_DATA = {
     items: [
       {
         id: 10,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
-        price: 220
+        name: "New Balance Orange",
+        imageUrl: "https://i.ibb.co/KXjF6bg/nb-orange.png",
+        price: 125
       },
       {
         id: 11,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
-        price: 280
+        name: "Champion Navy Woman",
+        imageUrl: "https://i.ibb.co/rkyRdZq/champ-navy.png",
+        price: 150
       },
       {
         id: 12,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
+        name: "Adidas Grey",
+        imageUrl: "https://i.ibb.co/fNYWWzh/adidas-grey.png",
         price: 110
       },
       {
         id: 13,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
-        price: 160
+        name: "Adidas Black Woman",
+        imageUrl: "https://i.ibb.co/Nmb47Lb/adidas-black.png",
+        price: 130
       },
       {
         id: 14,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
+        name: "Nike Green",
+        imageUrl: "https://i.ibb.co/vsknRzL/nike-green.png",
         price: 160
       },
       {
         id: 15,
-        name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
-        price: 160
+        name: "Nike Black/White",
+        imageUrl: "https://i.ibb.co/G26LN37/nike-bw.png",
+        price: 150
       },
       {
         id: 16,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+        name: "New Balance Red",
+        imageUrl: "https://i.ibb.co/55c0X1N/nb-red.png",
         price: 190
       },
       {
         id: 17,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
-        price: 200
+        name: "Champion Navy Man",
+        imageUrl: "https://i.ibb.co/86J7mmz/champion-navy.png",
+        price: 160
+      },
+      {
+        id: 17,
+        name: "Nike Grey",
+        imageUrl: "https://i.ibb.co/99fTXBh/nike-grey.png",
+        price: 130
+      },
+      {
+        id: 17,
+        name: "Nike Black",
+        imageUrl: "https://i.ibb.co/WktC5TN/nike-black.png",
+        price: 140
       }
     ]
   },
@@ -209,7 +221,7 @@ const SHOP_DATA = {
         id: 29,
         name: "New Balance X90 Pink",
         imageUrl: "https://i.ibb.co/SNZ1g2j/nb-x90.png",
-        price: 250
+        price: 200
       },
       {
         id: 29,
