@@ -134,33 +134,63 @@ const SHOP_DATA = {
     items: [
       {
         id: 18,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
-        price: 125
+        name: "Nike SB Green",
+        imageUrl: "https://i.ibb.co/6mLxMyd/nike-sb.png",
+        price: 60
       },
       {
         id: 19,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-        price: 90
+        name: "Nike Blank",
+        imageUrl: "https://i.ibb.co/2n2ST3p/nike-blank.png",
+        price: 80
       },
       {
         id: 20,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-        price: 90
+        name: "Nike Peach",
+        imageUrl: "https://i.ibb.co/bdHVcxn/nike-peach.png",
+        price: 50
       },
       {
         id: 21,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
-        price: 165
+        name: "Adidas Black",
+        imageUrl: "https://i.ibb.co/r7Rhhg4/adidas-tee-black.png",
+        price: 40
       },
       {
         id: 22,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        price: 185
+        name: "Nike SB Olive",
+        imageUrl: "https://i.ibb.co/qkXGGD8/nike-sb-olive.png",
+        price: 60
+      },
+      {
+        id: 22,
+        name: "Adidas Purple",
+        imageUrl: "https://i.ibb.co/HKSX1kP/adidas-purple.png",
+        price: 50
+      },
+      {
+        id: 22,
+        name: "New Balance White",
+        imageUrl: "https://i.ibb.co/Tqn8jqq/nb-white.png",
+        price: 40
+      },
+      {
+        id: 22,
+        name: "Adidas Red",
+        imageUrl: "https://i.ibb.co/QfFs6CL/adidas-red.png",
+        price: 50
+      },
+      {
+        id: 22,
+        name: "Nike ACG Pink",
+        imageUrl: "https://i.ibb.co/G9F6fhq/nike-pink.png",
+        price: 40
+      },
+      {
+        id: 22,
+        name: "Nike SB White",
+        imageUrl: "https://i.ibb.co/m0mzRrF/nike-sb-white.png",
+        price: 60
       }
     ]
   },
