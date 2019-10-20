@@ -26,4 +26,19 @@
   button {
     margin-top: auto;
   }
+
+  @media screen and (max-width: 860px) {
+    top: 140px;
+    right: 100px;
+  }
+
+  @media screen and (max-width: 420px) {
+    top: 140px;
+    right: 35px;
+  }
+
+  @media screen and (max-width: 330px) {
+    top: 140px;
+    right: 10px;
+  }
 }
