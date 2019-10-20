@@ -1,5 +1,7 @@
 import React from "react";
 import "./collection-preview.scss";
+import CustomButton from "../custom-button/custom-button";
+import { Link } from "react-router-dom";
 import CollectionItem from "../collection-item/collection-item";
 
 const CollectionPreview = ({ title, items }) => {
@@ -12,6 +14,11 @@ const CollectionPreview = ({ title, items }) => {
           .map(item => (
             <CollectionItem key={item.id} item={item} />
           ))}
+      </div>
+      <div className="preview-btn-container">
+        <Link className="preview-button" to={`shop/${title.toLowerCase()}`}>
+          More {title}
+        </Link>
       </div>
     </div>
   );

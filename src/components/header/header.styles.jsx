@@ -16,8 +16,6 @@ export const HeaderContainer = styled.div`
 `;
 
 export const LogoContainer = styled(Link)`
-  /* height: 100%;
-  width: 100%; */
   display: flex;
   align-items: center;
 
@@ -27,8 +25,6 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const OptionsContainer = styled.div`
-  /* height: 100%;
-  width: 100%; */
   display: flex;
   align-items: center;
   justify-content: flex-end;
