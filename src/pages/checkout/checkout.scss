@@ -36,4 +36,32 @@
     font-weight: bold;
     color: red;
   }
+
+  @media screen and (max-width: 860px) {
+    width: 100%;
+
+    .checkout-header {
+      justify-content: space-around;
+      .header-block {
+        width: unset;
+
+        span {
+          font-size: 14px;
+        }
+
+        &:last-child {
+          width: unset;
+        }
+      }
+    }
+
+    .total {
+      font-size: 25px;
+      padding-right: 10px;
+    }
+
+    .test-warning {
+      font-size: 17px;
+    }
+  }
 }
