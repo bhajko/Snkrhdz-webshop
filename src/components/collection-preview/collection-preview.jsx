@@ -1,6 +1,5 @@
 import React from "react";
 import "./collection-preview.scss";
-import CustomButton from "../custom-button/custom-button";
 import { Link } from "react-router-dom";
 import CollectionItem from "../collection-item/collection-item";
 

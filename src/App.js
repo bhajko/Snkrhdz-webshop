@@ -8,7 +8,7 @@ import ShopPage from "./pages/shop/shop";
 import SignInSignUp from "./pages/sign-in-sign-up/sign-in-sign-up";
 import CheckoutPage from "./pages/checkout/checkout";
 
-import { GlobalStyle } from "./global.styles";
+import "./App.css";
 
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
@@ -47,7 +47,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <GlobalStyle />
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
