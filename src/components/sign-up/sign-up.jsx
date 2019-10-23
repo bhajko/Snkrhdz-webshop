@@ -88,7 +88,7 @@ export class SignUp extends Component {
             label="Confirm Password"
             required
           />
-          <CustomButton type="submit" className="sign-up-btn">
+          <CustomButton type="submit" className="custom-button">
             SIGN UP
           </CustomButton>
         </form>
