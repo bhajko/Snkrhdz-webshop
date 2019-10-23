@@ -1,0 +1,40 @@
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+
+  @media screen and (max-width: 860px) {
+    height: 150px;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 860px) {
+      justify-content: center;
+    }
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 17px;
+
+    @media screen and (max-width: 860px) {
+      justify-content: center;
+      padding: 10px 0;
+      font-size: unset;
+    }
+
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
