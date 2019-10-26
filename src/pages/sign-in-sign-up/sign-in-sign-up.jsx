@@ -5,9 +5,11 @@ import "./sign-in-sign-up.scss";
 
 const SignInSignUp = () => {
   return (
-    <div className="sign-in-and-sign-up">
-      <SignIn />
-      <SignUp />
+    <div className="container">
+      <div className="sign-in-and-sign-up">
+        <SignIn />
+        <SignUp />
+      </div>
     </div>
   );
 };

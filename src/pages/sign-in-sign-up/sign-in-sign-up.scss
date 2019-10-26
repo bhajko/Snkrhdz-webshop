@@ -1,3 +1,9 @@
+.container {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+}
+
 .sign-in-and-sign-up {
   width: 950px;
   display: flex;
