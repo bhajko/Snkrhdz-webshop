@@ -7,14 +7,25 @@ import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "./redux/store";
 
 import App from "./App";
+import "./index.css";
 
-ReactDOM.render(
+import Footer from "./components/footer/footer";
+
+const withFooter = WrappedComponent => () => [
+  <WrappedComponent key="1" />,
+  <Footer key="2" />
+];
+
+const Wrapper = () => (
   <Provider store={store}>
     <BrowserRouter>
       <PersistGate persistor={persistor}>
         <App />
       </PersistGate>
     </BrowserRouter>
-  </Provider>,
-  document.getElementById("root")
+  </Provider>
 );
+
+const WrapperWithFooter = withFooter(Wrapper);
+
+ReactDOM.render(<WrapperWithFooter />, document.getElementById("root"));

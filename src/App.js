@@ -11,7 +11,6 @@ import CheckoutPage from "./pages/checkout/checkout";
 import "./App.css";
 
 import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
 
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 
@@ -46,7 +45,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="content">
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
@@ -60,7 +59,6 @@ class App extends React.Component {
             }
           />
         </Switch>
-        <Footer />
       </div>
     );
   }
