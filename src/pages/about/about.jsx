@@ -1,5 +1,34 @@
 import React from "react";
 import "./about.scss";
+import {
+  GoogleMap,
+  withScriptjs,
+  withGoogleMap,
+  Marker,
+  InfoWindow
+} from "react-google-maps";
+import mapStyles from "../../mapStyles";
+
+function Maps() {
+  return (
+    <GoogleMap
+      defaultZoom={15}
+      defaultCenter={{ lat: 47.511017, lng: 19.054249 }}
+      defaultOptions={{ styles: mapStyles }}
+    >
+      <Marker
+        key={1}
+        position={{ lat: 47.511017, lng: 19.054249 }}
+        // icon={{
+        //   url: "/diamond.svg",
+        //   scaledSize: new window.google.maps.Size(40, 40)
+        // }}
+      />
+    </GoogleMap>
+  );
+}
+
+const WrappedMap = withScriptjs(withGoogleMap(Maps));
 
 const AboutPage = () => {
   return (
@@ -21,7 +50,14 @@ const AboutPage = () => {
             stage.
           </p>
         </div>
-        <div className="about-map">map</div>
+        <div className="about-map">
+          <WrappedMap
+            googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_KEY}`}
+            loadingElement={<div style={{ height: "100%" }} />}
+            containerElement={<div style={{ height: "100%" }} />}
+            mapElement={<div style={{ height: "100%" }} />}
+          />
+        </div>
       </div>
     </div>
   );
