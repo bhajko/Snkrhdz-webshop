@@ -36,7 +36,7 @@ const AboutPage = () => {
       <div className="about-pic"></div>
       <div className="about-us">
         <div className="about-text">
-          <h3>About us</h3>
+          <h2>About us</h2>
           <p>
             We work exclusively with trusted manufacturers guaranteeing the
             latest range, including limited must-havy. The selection in our
@@ -52,7 +52,7 @@ const AboutPage = () => {
         </div>
         <div className="about-map">
           <WrappedMap
-            googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_KEY}`}
+            googleMapURL={`"https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_KEY}&callback=initMap"`}
             loadingElement={<div style={{ height: "100%" }} />}
             containerElement={<div style={{ height: "100%" }} />}
             mapElement={<div style={{ height: "100%" }} />}
