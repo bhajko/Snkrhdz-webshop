@@ -13,17 +13,10 @@ function Maps() {
   return (
     <GoogleMap
       defaultZoom={15}
-      defaultCenter={{ lat: 47.511017, lng: 19.054249 }}
+      defaultCenter={{ lat: 47.512849, lng: 19.048367 }}
       defaultOptions={{ styles: mapStyles }}
     >
-      <Marker
-        key={1}
-        position={{ lat: 47.511017, lng: 19.054249 }}
-        // icon={{
-        //   url: "/diamond.svg",
-        //   scaledSize: new window.google.maps.Size(40, 40)
-        // }}
-      />
+      <Marker key={1} position={{ lat: 47.512849, lng: 19.048367 }} />
     </GoogleMap>
   );
 }

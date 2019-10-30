@@ -28,8 +28,19 @@
     }
 
     .about-map {
-      width: 500px;
       height: 50%;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    flex-direction: column;
+    height: 100vh;
+    .about-us {
+      .about-text {
+        width: 100%;
+        height: fit-content;
+        padding: 30px;
+      }
     }
   }
 }
