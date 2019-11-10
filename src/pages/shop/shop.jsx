@@ -1,9 +1,6 @@
-import React from "react";
+import React, { lazy } from "react";
 import { Route } from "react-router-dom";
 import { connect } from "react-redux";
-
-import CollectionsOverview from "../../components/collections-overview/collections-overview";
-import CollectionPage from "../collection/collection";
 
 import {
   firestore,
@@ -15,6 +12,11 @@ import { updateCollections } from "../../redux/shop/shop.actions";
 import WithSpinner from "../../components/with-spinner/with-spinner";
 
 import "./shop.scss";
+
+const CollectionsOverview = lazy(() =>
+  import("../../components/collections-overview/collections-overview")
+);
+const CollectionPage = lazy(() => import("../collection/collection"));
 
 const CollectionOverviewWithSpinner = WithSpinner(CollectionsOverview);
 const CollectionPageWithSpinner = WithSpinner(CollectionPage);
